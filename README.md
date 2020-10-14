@@ -19,6 +19,15 @@ necessary as root):
     make clean install
 
 
+Patches applied
+---------------
+- [dwm-alpha-20180613-b69c870.diff](https://dwm.suckless.org/patches/alpha/)
+- [dwm-autostart-20200610-cb3f58a.diff](https://dwm.suckless.org/patches/autostart/)
+- [dwm-fullscreen-6.2.diff](https://dwm.suckless.org/patches/fullscreen/)
+- [dwm-noborderfloatingfix-6.2.diff](https://dwm.suckless.org/patches/noborder/)
+- [dwm-vanitygaps-20200610-f09418b.diff](https://dwm.suckless.org/patches/vanitygaps/)
+
+
 Running dwm
 -----------
 Add the following line to your .xinitrc to start dwm using startx:
