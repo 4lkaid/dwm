@@ -44,7 +44,7 @@ the DISPLAY environment variable is set correctly, e.g.:
 In order to display status info in the bar, you can do something
 like this in your .xinitrc:
 
-    while xsetroot -name "`date` `uptime | sed 's/.*,//'`"
+    while xsetroot -name " `date +'%Y-%m-%d %H:%M:%S'` "
     do
     	sleep 1
     done &
